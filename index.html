@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>逆袭者·AI分析大师 盘后总报告 · 2026-07-23</title>
+<title>逆袭者·AI分析大师 盘后总报告 · 2026-07-24</title>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 <style>
   :root{
@@ -65,10 +65,8 @@
   .foot .skip{color:#f39c12;font-weight:700;}
   .disc{text-align:center;color:var(--red);font-weight:700;margin-top:12px;font-size:13px;}
   .src{color:var(--txt2);font-size:11.5px;margin-top:10px;text-align:center;}
-  .news-item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0;font-size:13px;}
-  .news-item b{color:var(--gold2);}
-  .index-kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px;}
-  @media(max-width:640px){.index-kpi{grid-template-columns:repeat(2,1fr);}}
+  .obs-note{font-size:12px;color:var(--txt2);margin-top:8px;padding:8px 12px;background:rgba(255,255,255,.03);border-radius:8px;border-left:3px solid var(--gold);}
+  .wind-only{color:var(--gold);font-size:11px;font-style:italic;}
 </style>
 </head>
 <body>
@@ -77,21 +75,22 @@
 <header>
   <div class="badge">机构级盘后研判 · 单文件交互总报告</div>
   <h1>逆袭者·AI分析大师 盘后总报告</h1>
-  <div class="sub">复盘日期 <span class="date">2026-07-23（周四）</span> ｜ 数据来源：财联社 / 证券时报·数据宝 / 国网招标平台 / 上证报等公开盘后信息</div>
-  <div class="sub">缩量结构性弱高潮：成交骤减4590亿，科技权重血崩 vs 电网电力连板狂飙，4200+上涨下的极致分化</div>
+  <div class="sub">复盘日期 <span class="date">2026-07-24（周五）</span> ｜ 数据来源：财联社 / 证券时报·数据宝 / 国家电网公示 / SEMI / 中信证券等公开盘后信息</div>
+  <div class="sub">退潮期普跌：近5000股收跌，成交1.93万亿创3个月新低，电网设备利好兑现后分化，半导体设备逆势突围</div>
 </header>
 
 <!-- ========== 1. 顶部概览卡片 ========== -->
 <h2 class="sec">一、市场全景概览<small>数据口径：01-复盘日志 模块1</small></h2>
 <div class="grid cards">
-  <div class="kpi"><div class="v red">+0.25%</div><div class="l">上证指数</div><div class="d">3876.78 点 · 权重护盘微红</div></div>
-  <div class="kpi"><div class="v red">+0.44%</div><div class="l">深证成指</div><div class="d">14123.31 点</div></div>
-  <div class="kpi"><div class="v red">+0.25%</div><div class="l">创业板指</div><div class="d">3575.52 点</div></div>
-  <div class="kpi"><div class="v green">-3.78%</div><div class="l">科创50</div><div class="d">科技权重全线重挫</div></div>
-  <div class="kpi"><div class="v white">2.21<span style="font-size:16px">万亿</span></div><div class="l">两市成交额</div><div class="d">缩量 4590 亿（-17.20%）</div></div>
-  <div class="kpi"><div class="v"><span style="color:var(--red)">116</span> / <span style="color:var(--green)">2</span></div><div class="l">涨停 / 跌停（家）</div><div class="d">封板率 82% · 炸板率 17.73%</div></div>
-  <div class="kpi"><div class="v gold">6 板</div><div class="l">最高连板</div><div class="d">立新能源（001258）· 电力龙一</div></div>
-  <div class="kpi"><div class="v gold">高潮期</div><div class="l">情绪周期阶段</div><div class="d">结构性弱高潮（总量高潮/科技退潮）</div></div>
+  <div class="kpi"><div class="v red">-1.61%</div><div class="l">上证指数</div><div class="d">3814.20 点 · 失守3900</div></div>
+  <div class="kpi"><div class="v red">-2.47%</div><div class="l">深证成指</div><div class="d">13774.68 点</div></div>
+  <div class="kpi"><div class="v red">-2.65%</div><div class="l">创业板指</div><div class="d">3480.87 点</div></div>
+  <div class="kpi"><div class="v red">-4.03%</div><div class="l">北证50</div><div class="d">1031.72 点 · 跌幅最大</div></div>
+  <div class="kpi"><div class="v white">1.93<span style="font-size:16px">万亿</span></div><div class="l">两市成交额</div><div class="d">缩量约 2641 亿 · 创3个月新低</div></div>
+  <div class="kpi"><div class="v"><span style="color:var(--red)">42</span> / <span style="color:var(--green)">~25</span></div><div class="l">涨停 / 跌停（家）</div><div class="d">封板率约70%-78% · 炸板率22%-30%</div></div>
+  <div class="kpi"><div class="v gold">4 板</div><div class="l">最高连板</div><div class="d">长缆科技 / 爱丽家居 · 立新能源6进7炸板</div></div>
+  <div class="kpi"><div class="v gold">退潮期</div><div class="l">情绪周期阶段</div><div class="d">跌停≥18家硬条件命中 · 高标大面积出清</div></div>
+  <div class="kpi"><div class="v red">0-10%</div><div class="l">次日建议仓位</div><div class="d">退潮期标准 · 空仓优先</div></div>
 </div>
 
 <!-- ========== 2. 图表区 ========== -->
@@ -100,68 +99,72 @@
 <div class="grid two">
   <div class="chart-box">
     <h3>① 四大指数涨跌幅对比（%）</h3>
-    <div class="note">科创50 -3.78% 深跌，沪指/深成指/创业板微红——权重护盘掩盖科技失血</div>
+    <div class="note">三大指数全线收跌：北证50 -4.03% 领跌；双创跌幅均超2.5%</div>
     <div id="c1" class="chart"></div>
   </div>
   <div class="chart-box">
     <h3>② 市场情绪仪表盘</h3>
-    <div class="note">封板率 82%；涨停116 / 跌停2 / 炸板率17.73%——总量高潮但结构极端分化</div>
+    <div class="note">封板率约70%-78%；涨停42 / 跌停~25 / 炸板率22%-30% / 连板晋级率26.67%</div>
     <div id="c2" class="chart"></div>
   </div>
 </div>
 
 <div class="grid two">
   <div class="chart-box">
-    <h3>③ 涨停股行业分布 TOP（数据宝口径）</h3>
-    <div class="note">第1热点：电网设备 超30股涨停居首，电力/绿电紧随其后</div>
+    <h3>③ 涨停股行业分布 TOP</h3>
+    <div class="note">电网设备约6只居首（但板块整体跌3.79%），半导体设备约5只逆势，军工约4只</div>
     <div id="c3" class="chart"></div>
   </div>
   <div class="chart-box">
-    <h3>④ 四大线索星级评定（02-四大题材挖掘）</h3>
-    <div class="note">主线=十五五电网规划+特高压招标★5；一级市场映射=长鑫7/27挂牌★4</div>
+    <h3>④ 四大线索雷达图（02-四大题材挖掘）</h3>
+    <div class="note">主线=十五五电网规划+特高压招标★5；支线=半导体国产替代★4 / 中东地缘★4；对冲=Mag7大跌★3</div>
     <div id="c4" class="chart"></div>
   </div>
 </div>
 
 <div class="chart-box">
   <h3>⑤ 五维可交易性评分（02-Step5，每项满分10分）</h3>
-  <div class="note">电网设备/特高压 42 分居首「核心主线」；算力租赁/Token经济 28 分「分化观望」</div>
+  <div class="note">半导体设备国产替代 38 分居首「潜在主线，可中等仓位参与」；中报预增 26 分「低于30分，放弃或仅观察」</div>
   <div id="c5" class="chart tall"></div>
 </div>
 
 <div class="chart-box">
-  <h3>⑥ 主力资金净流入 TOP 板块（亿元，01-模块1）</h3>
-  <div class="note">电力设备 / 有色金属 / 银行获主力青睐；电子/计算机大幅净流出</div>
-  <div id="c6" class="chart"></div>
+  <h3>⑥ 紫苏叶标的市值分布（亿元，04-紫苏叶挖掘）</h3>
+  <div class="note">核心池 5 只 + 观察池 2 只；电网设备/特高压上游瓶颈环节市值多在50-200亿区间</div>
+  <div id="c6" class="chart tall"></div>
 </div>
 
 <div class="chart-box">
-  <h3>⑦ 电网设备产业链拆解示意（03/04，🔴 = 瓶颈环节）</h3>
-  <div class="note">核心结论：本轮真正瓶颈不在整机设备，而在「认证型零部件 + 特种绝缘材料」，国产替代率普遍 &lt;20%，认证周期3年起</div>
+  <h3>⑦ 电网设备/特高压产业链拆解示意（03/04，🔴 = 瓶颈环节）</h3>
+  <div class="note">核心结论：真正瓶颈不在变压器/GIS等主设备（被大型央企垄断），而在「有载分接开关/复合绝缘子/绝缘纸板/瓷绝缘子/避雷器」等核心零部件环节</div>
   <div class="flow">
     <div class="col">
-      <h4>下游 · 电网运营/买单方</h4>
-      <div class="item">国家电网 / 南方电网（十五五5万亿+投资）</div>
-      <div class="item">特高压工程建设（已开工4条，储备8条）</div>
-      <div class="item">新能源并网消纳（2030年可再生能源占比30%）</div>
+      <h4>下游 · 电网/用户</h4>
+      <div class="item">国家电网 / 南方电网（集采占比超80%）</div>
+      <div class="item">特高压输电工程（"西电东送"主干通道）</div>
+      <div class="item">新能源大基地外送（风光并网配套）</div>
+      <div class="item">海外EPC工程（巴西美丽山、沙特等）</div>
     </div>
     <div class="arr">◀</div>
     <div class="col">
-      <h4>中游 · 设备整机（招标已落地）</h4>
-      <div class="item">中国西电——特高压全系统交付龙头，中标41.29亿</div>
-      <div class="item">国电南瑞——控制保护市占率50%，换流阀30%</div>
-      <div class="item">许继电气——换流阀市占率35%，±1100kV自主可控</div>
-      <div class="item">平高电气——GIS开关龙头，中标18.18亿</div>
+      <h4>中游 · 核心设备</h4>
+      <div class="item">换流变压器（中国西电、特变电工）</div>
+      <div class="item">换流阀（许继电气、国电南瑞）</div>
+      <div class="item">GIS组合电器（平高电气）</div>
+      <div class="item">继电保护/自动化（南瑞、许继）</div>
+      <div class="item">电缆/铁塔/绝缘子（长缆科技等）</div>
     </div>
     <div class="arr">◀</div>
     <div class="col">
-      <h4>上游 · 核心零部件/材料（最受益🔴）</h4>
-      <div class="item bn">变压器有载分接开关：华明装备（国内唯一±800kV批量供货，全球第二）</div>
-      <div class="item bn">复合绝缘子/套管：神马电力（国际首创，国内市占70%+，海外收入47%）</div>
-      <div class="item bn">特高压绝缘纸板：广信科技（全球唯一30mm无胶超厚绝缘板，认证周期3年）</div>
-      <div class="item bn">特高压瓷绝缘子：大连电瓷（国内唯一±800kV及以上批量供货，交流市占59%）</div>
-      <div class="item">电子特气：华特气体（ASML认证国内仅2家）</div>
-      <div class="item">硅钢片：望变电气（取向硅钢国产替代）</div>
+      <h4>上游 · 瓶颈零部件（最受益🔴）</h4>
+      <div class="item bn">有载分接开关：华明装备（国内唯一特高压量产）</div>
+      <div class="item bn">复合外绝缘：神马电力（国际首创，海外47%收入）</div>
+      <div class="item bn">绝缘纸板/成型件：广信科技（全球唯一30mm无胶）</div>
+      <div class="item bn">特高压瓷绝缘子：大连电瓷（国内唯一±800kV+批量）</div>
+      <div class="item bn">特高压避雷器：金冠电气（国网市占率领先）</div>
+      <div class="item">取向硅钢：望变电气（民营前列，毛利率承压）</div>
+      <div class="item">IGBT/IGCT功率器件（换流阀核心，国产替代中）</div>
+      <div class="item">铜/铝材（大宗周期品，成本占比20-25%）</div>
     </div>
   </div>
 </div>
@@ -172,110 +175,116 @@
 <table>
   <thead><tr><th>个股名称</th><th>代码</th><th>所属板块</th><th>题材名称</th><th>硬逻辑要点</th><th>是否紫苏叶</th><th>产业链地位</th></tr></thead>
   <tbody>
-    <tr><td><b>立新能源</b></td><td>001258</td><td>电力/绿电</td><td>夏峰+疆电外送+中报预增</td><td>6连板全市场最高板，H1预增570%-794%，疆电外送通道收益</td><td>否</td><td>龙一</td></tr>
-    <tr><td><b>中国西电</b></td><td>601179</td><td>电网设备</td><td>特高压中标</td><td>中标41.29亿（占2025年营收17.38%），特高压全系统交付龙头，全球80%+特高压工程参与</td><td>否</td><td>中军</td></tr>
-    <tr><td><b>国电南瑞</b></td><td>600406</td><td>电网设备</td><td>控制保护+AI调度</td><td>控制保护市占率50%（第一），换流阀30%，国家级制造业单项冠军</td><td>否</td><td>技术壁垒最深</td></tr>
-    <tr><td><b>许继电气</b></td><td>000400</td><td>电网设备</td><td>换流阀+直流保护</td><td>换流阀市占率35%（第一），±1100kV全套技术自主可控</td><td>否</td><td>直流输电心脏</td></tr>
-    <tr><td><b>华明装备</b></td><td>002270</td><td>电网设备</td><td>变压器有载分接开关</td><td>国内唯一±800kV特高压直流换流变分接开关批量供货；全球第二，国内500kV以下市占80%+</td><td><span class="tag">🔴 是</span></td><td>上游部件瓶颈</td></tr>
-    <tr><td><b>神马电力</b></td><td>603530</td><td>电网设备</td><td>复合绝缘子/套管</td><td>特高压直流支柱复合绝缘子国际首创；国内市占70%+；欧美90%复合绝缘子由公司供货</td><td><span class="tag">🔴 是</span></td><td>上游部件瓶颈</td></tr>
-    <tr><td><b>广信科技</b></td><td>920037</td><td>电网设备</td><td>特高压绝缘纸板</td><td>全球唯一30mm无胶超厚绝缘板（海外仅9mm）；国网认证周期3年</td><td><span class="tag">🔴 是</span></td><td>上游材料瓶颈</td></tr>
-    <tr><td><b>大连电瓷</b></td><td>002606</td><td>电网设备</td><td>特高压瓷绝缘子</td><td>国内唯一批量供货±800kV及以上直流瓷绝缘子；交流市占59%；Q1净利+194%</td><td><span class="tag">🔴 是</span></td><td>上游部件瓶颈</td></tr>
+    <tr><td><b>长缆科技</b></td><td>002879</td><td>电网设备</td><td>特高压电缆附件</td><td>4连板龙一，国网35-220kV电缆附件中标量行业第一，750kV填补国内空白，220kV毛利率55.87%</td><td>否</td><td>龙一（情绪龙头）</td></tr>
+    <tr><td><b>中国西电</b></td><td>601179</td><td>电网设备</td><td>特高压全系统交付</td><td>第三批中标41.29亿（行业第一），国内唯一全套±800kV交直流变压器能力，2300+项专利</td><td>否</td><td>中军总龙头</td></tr>
+    <tr><td><b>许继电气</b></td><td>000400</td><td>电网设备</td><td>换流阀+直流保护</td><td>换流阀/直流保护市占率双约50%，IGCT换流阀国产替代突破，单条直流项目换流阀价值40亿+</td><td>否</td><td>技术独占龙头</td></tr>
+    <tr><td><b>平高电气</b></td><td>600312</td><td>电网设备</td><td>GIS组合电器</td><td>GIS绝对龙头，2026年累计国网中标超40亿，1000kV GIS技术国内领先</td><td>否</td><td>细分赛道统治龙头</td></tr>
+    <tr><td><b>华明装备</b></td><td>002270</td><td>电网设备</td><td>有载分接开关</td><td>国内唯一特高压分接开关量产，全球第二，2018年消灭国内最大竞争对手后事实垄断</td><td><span class="tag">🔴 是</span>核心池~152亿</td><td>上游部件瓶颈</td></tr>
+    <tr><td><b>神马电力</b></td><td>603530</td><td>电网设备</td><td>复合外绝缘</td><td>国际首创变电站复合外绝缘，海外收入占比47%，藏粤工程占直流绝缘子62.82%</td><td><span class="tag">🔴 是</span>核心池~185亿</td><td>上游部件瓶颈</td></tr>
+    <tr><td><b>广信科技</b></td><td>920037</td><td>电网设备</td><td>特高压绝缘纸板</td><td>全球唯一30mm无胶绝缘纸板，产能利用率104.75%满载，2027年扩产50%达产</td><td><span class="tag">🔴 是</span>核心池~48亿</td><td>上游材料瓶颈</td></tr>
+    <tr><td><b>大连电瓷</b></td><td>002606</td><td>电网设备</td><td>特高压瓷绝缘子</td><td>国内唯一±800kV及以上批量供货，2026H1净利预增200%-286%，三大基地满产</td><td><span class="tag">🔴 是</span>核心池~53亿</td><td>上游部件瓶颈</td></tr>
+    <tr><td><b>至纯科技</b></td><td>603690</td><td>半导体设备</td><td>清洗设备</td><td>7/24逆势涨停，长鑫IPO直接受益，半导体设备国产替代核心标的</td><td>否</td><td>清洗设备龙头</td></tr>
+    <tr><td><b>托伦斯</b></td><td>688709</td><td>半导体设备</td><td>量检测</td><td>20cm 4天3板，半导体设备最小市值标的之一，大盘暴跌下独立走强</td><td>否</td><td>量检测新锐</td></tr>
+    <tr><td><b>长城军工</b></td><td>601606</td><td>军工</td><td>兵装重组+地缘</td><td>2连板，兵装系改革预期叠加伊朗打击美军基地催化</td><td>否</td><td>军工龙一</td></tr>
   </tbody>
 </table>
 </div>
-<p style="font-size:12.5px;color:var(--txt2);margin-top:10px;">紫苏叶鉴定结论：电网设备板块瓶颈价值在<b style="color:var(--gold2)">上游核心零部件与特种材料</b>——分接开关/复合绝缘子/绝缘纸板/瓷绝缘子四大断供环节（全球缺口以年计，认证周期3年起）；华明装备、神马电力、广信科技、大连电瓷已入核心池。</p>
+<p style="font-size:12.5px;color:var(--txt2);margin-top:10px;">紫苏叶鉴定结论：电网设备板块瓶颈价值在<b style="color:var(--gold2)">上游核心零部件与特种材料</b>——分接开关/复合绝缘子/绝缘纸板/瓷绝缘子四大断供环节（全球缺口以年计，认证周期3年起）；华明装备、神马电力、广信科技、大连电瓷已在核心池。7/24板块回调-3.79%提供布局窗口。</p>
 
 <!-- ========== 4. 三大龙头鉴定 ========== -->
-<h2 class="sec">四、三大龙头鉴定<small>取自 03-产业链分析 第七节「三维锁定法」</small></h2>
+<h2 class="sec">四、三大龙头鉴定<small>取自 03-产业链分析 第六节「三维锁定法」· 三维全中</small></h2>
 <div class="grid lead-cards">
   <div class="lead">
-    <div class="nm">立新能源（001258）· 情绪龙头</div>
-    <div class="cd">电力/绿电 ｜ 6连板 · 全市场最高标</div>
-    <div class="lg">A 股唯一同时具备「疆电外送通道收益 + H1预增570%-794%业绩验证 + 6连板身位优势」的电力标的：夏峰高温推升用电负荷，疆电外送第三条通道投产在即，中报预告验证盈利拐点，情绪资金抱团首选。</div>
+    <div class="nm">中国西电（601179）· 中军总龙头</div>
+    <div class="cd">电网设备 ｜ 第三批中标41.29亿行业第一</div>
+    <div class="lg">国内唯一全套±800kV特高压交直流变压器能力；国企背景+国网深度绑定，在特高压工程总包模式下具有不可替代的集成优势。2026年第三批中标41.29亿元（含特高压26.32亿+输变电14.97亿），手握2300+项专利，产能满负荷排至2027年。</div>
   </div>
   <div class="lead">
-    <div class="nm">中国西电（601179）· 中军首发</div>
-    <div class="cd">电网设备 ｜ 中标41.29亿 · 占2025年营收17.38%</div>
-    <div class="lg">A 股唯一「特高压全系统交付龙头」——2026年前三批特高压招标292.61亿已超2025全年220.62亿，公司中标41.29亿为单批次最大赢家；全球80%+特高压工程有公司参与，十五五5万亿+电网投资的最大公约数受益者。</div>
+    <div class="nm">许继电气（000400）· 技术独占龙头</div>
+    <div class="cd">电网设备 ｜ 换流阀/直流保护市占率双约50%</div>
+    <div class="lg">换流阀是特高压直流的"心脏"，单条直流项目价值40亿+，技术壁垒极高。许继与南瑞形成双寡头格局，且许继在IGCT技术路线上率先突破，国产替代背景下份额有望进一步提升。在手订单排至2027年，特高压收入占比将重回40%。</div>
   </div>
   <div class="lead">
-    <div class="nm">华明装备（002270）· 弹性旗帜</div>
-    <div class="cd">电网设备 ｜ 紫苏叶瓶颈标的</div>
-    <div class="lg">A 股唯一±800kV特高压直流换流变分接开关批量供货企业：国内500kV以下市占率80%+，全球第二；分接开关为变压器核心部件，故障即全站停电，物理不可替代性强；国产替代窗口期+海外电网改造双轮驱动。</div>
+    <div class="nm">平高电气（600312）· 细分赛道统治龙头</div>
+    <div class="cd">电网设备 ｜ GIS组合电器绝对龙头</div>
+    <div class="lg">GIS组合电器领域绝对龙头，1000kV GIS技术国内领先。特高压交流工程（如浙北-福州、淮南-南京-上海等）的核心供应商，2026年累计国网中标已超40亿，订单连续性和确定性最强。</div>
   </div>
 </div>
+<p style="font-size:12.5px;color:var(--txt2);margin-top:10px;">电网设备核心地位：中国西电（全品类集成之王）/ 许继电气（换流阀"心脏"）/ 平高电气（GIS统治力）分别占据三大核心环节制高点，均为"牌照+技术"双垄断型企业。</p>
 
-<!-- ========== 5. 立新能源个股挖机 ========== -->
-<h2 class="sec">五、立新能源（001258）个股挖机结论<small>取自 05-个股题材挖机</small></h2>
+<!-- ========== 5. 长缆科技个股挖机 ========== -->
+<h2 class="sec">五、长缆科技（002879）个股挖机结论<small>取自 05-个股题材挖机</small></h2>
 <div class="chart-box">
-  <h3>最硬题材：绿色电力运营 + 疆电外送（双重政策+业绩验证）</h3>
+  <h3>最硬题材：超高压/特高压电缆附件（国网中标量行业第一 + 750kV国内领先）</h3>
   <ul class="list">
-    <li><b class="zz">疆电外送第三条通道</b>（哈密-重庆±800kV）2026年投产在即，公司作为新疆本土绿电运营商直接受益外送电量增量与电价溢价；新疆新能源装机2025年底已超1亿千瓦，消纳压力倒逼外送通道加速。</li>
-    <li><b class="zz">2026H1业绩预告：净利预增570%-794%</b>，验证绿电运营盈利拐点——风光装机增长+利用小时提升+绿电溢价三重驱动；此前2023-2024年连续亏损，2025年扭亏为盈，2026年加速释放。</li>
-    <li>当日盘面：6连板，电力梯队完整（华电辽能4天3板跟进），板块涨停超30家，资金认同度极高；但盘后公司发布异动公告提示风险，需关注监管态度。</li>
-    <li>政策背书：十五五电网规划明确2030年可再生能源占比30%，国网5万亿+投资落地，特高压建设进入新一轮高峰。</li>
+    <li>公司在国网35-220kV电缆附件协议库存招标中中标量<b class="zz">行业第一</b>；750kV交直流电缆附件填补国内空白并通过国家级预鉴定试验；500kV海风领域实现国产替代——物理技术壁垒最深、国产替代逻辑最硬。</li>
+    <li>220kV产品毛利率高达<b class="zz">55.87%</b>；电缆附件业务占总营收65.59%，护城河为绝缘材料自研能力+60余年技术沉淀。</li>
+    <li>当日盘面：收盘 <b class="zz">18.05 元（+9.99% 涨停·4连板）</b>，成交3.69亿、换手率14.91%；龙虎榜7/23显示4机构席位合计卖出约6,644万元。</li>
+    <li>7月24日电网设备板块大跌-3.79%，长缆科技逆势独活，龙头地位确认。但机构在3板位置集体减持，需高度警惕。</li>
   </ul>
-  <h3 style="margin-top:14px;">次日（7-24）观察要点</h3>
+  <h3 style="margin-top:14px;">次日（7-25）方向性判断</h3>
   <ul class="list">
-    <li><b style="color:var(--green)">关键观察</b>：立新能源能否晋级7板是决定电力梯队生死的关键信号——缩量加速7板=防御抱团延续；断板且大幅回撤=电力梯队强分歧。</li>
-    <li><b style="color:var(--red)">风险警示</b>：公司盘后异动公告提示「算电协同」概念未被证实；6连板后累积获利盘巨大，任何监管函或停牌核查都可能引发踩踏。</li>
-    <li>中期视角：若电力/电网演化为周线级主线，中军（中国西电/国电南瑞/许继电气）的承接力度比连板龙头的情绪更能说明题材生命力。</li>
+    <li><b style="color:var(--red)">风险信号</b>：短期4日累计涨幅46%获利盘极重；机构在3板位置集体卖出；市场缩量至1.93万亿流动性支撑不足；4连板后面临5板"天花板"压制。</li>
+    <li><b style="color:var(--gold2)">支撑逻辑</b>：电网投资主线确定性高（十五五规划+国网4万亿投资），公司基本面扎实（PE仅26倍），回购托底信号明确（回购价上限20.50元）。</li>
+    <li>综合判定：当前处于情绪博弈极端位置，以观察为主，警惕连板高度压制与机构出逃风险。</li>
   </ul>
 </div>
 
-<!-- ========== 6. 新闻要点 ========== -->
-<h2 class="sec">六、今日核心新闻/要点<small>取自 01-复盘日志 模块4 + 02-四大题材挖掘</small></h2>
-<div class="news-item"><b>1. 十五五电网规划重磅发布：</b>国家发改委、能源局联合印发《可再生能源发展"十五五"规划》，明确2030年可再生能源发电量占比达30%，"十五五"电网固定资产投资5万亿+，较十四五增长超80%。</div>
-<div class="news-item"><b>2. 国网特高压招标跨越式突破：</b>2026年第三批特高压及输变电设备招标落地，前三批采购金额292.61亿元已超2025全年220.62亿元；中国西电中标41.29亿、平高电气18.18亿、许继电气12.45亿。</div>
-<div class="news-item"><b>3. 美股科技巨头集体崩盘：</b>纳指跌2.15%，特斯拉暴跌超14%，科技七巨头市值蒸发7970亿美元；A股科技线同步遭血洗，科创50跌3.78%，紫光股份主力净流出-30.52亿。</div>
-<div class="news-item"><b>4. 中东局势升级推升油价：</b>布伦特原油一度触及100美元/桶，美伊互相威胁打击基础设施；霍尔木兹海峡航运锐减，地缘溢价明显。</div>
-<div class="news-item"><b>5. 北京智能体/Token经济政策：</b>北京印发措施鼓励Token工厂与专用推理芯片，加大算力券支持；月之暗面Kimi因算力紧张暂停C端新用户订阅。</div>
-<div class="news-item"><b>6. 长鑫科技7-27科创板挂牌倒计时：</b>国产DRAM龙头科创板历史第二大规模IPO，募资295亿；映射存储芯片设备/材料/封测产业链。</div>
-
-<!-- ========== 7. 次日对策（公开版） ========== -->
-<h2 class="sec">七、次日观察框架（7月24日）<small>取自 06-核心报告 第四节 · 公开版已剥离具体交易指令</small></h2>
+<!-- ========== 6. 次日对策 ========== -->
+<h2 class="sec">六、次日对策（7月25日）<small>取自 06-核心报告 第四节</small></h2>
 <div class="grid lead-cards">
   <div class="lead">
-    <div class="nm">情绪阶段：高潮期 · 结构性弱高潮</div>
-    <div class="cd">总量高潮但科技单边退潮</div>
-    <div class="lg">涨停116家触发高潮阈值，但量能大幅萎缩-17.2%、科创50-3.78%与全市场4200+上涨形成极端背离。此阶段不追涨，只做最强梯队的分歧低吸，回避科技反抽。</div>
+    <div class="nm">仓位 0-10% · 空仓优先</div>
+    <div class="cd">退潮期标准</div>
+    <div class="lg">退潮期不做左侧抄底，宁可错过反弹也不做错补仓。防守为主、极小仓位试错，只做最强逆势梯队与紫苏叶瓶颈标的回调低吸，不碰连板追高。</div>
   </div>
   <div class="lead">
-    <div class="nm">次日关键观察信号</div>
-    <div class="cd">立新能源能否晋级7板</div>
-    <div class="lg">6板龙头断板且大幅回撤 = 电力梯队溃散+全市场进入分歧日；反之缩量加速7板 = 防御抱团延续。次要信号：科创50是否继续破位拖累创业板；成交额能否守住2万亿。</div>
+    <div class="nm">总体方向</div>
+    <div class="cd">防守为主、极小仓位试错</div>
+    <div class="lg">①紫苏叶核心池标的（华明装备/神马电力/大连电瓷）回踩缩量企稳可分批关注；②半导体设备（至纯科技/托伦斯）若低开且板块不创新低可极小仓位观察；③长缆科技仅作情绪风向标观察，不主动介入。</div>
   </div>
   <div class="lead">
-    <div class="nm">板块方向判断</div>
-    <div class="cd">电网/电力为唯一核心主线</div>
-    <div class="lg">十五五规划+特高压招标实质性订单支撑，结构与H-2026-008（算电协同/绿电）类似但订单验证性更强。若龙头断板，关注板块中军（中国西电/国电南瑞/许继电气）承接力度——中军不溃则题材不死。</div>
+    <div class="nm">出场 / 风控条件</div>
+    <div class="cd">纪律优先</div>
+    <div class="lg">长缆科技断板跌停即视为电网设备梯队全面退潮信号；沪指跌破3800或成交额跌破1.8万亿总仓降至空仓；半导体设备若至纯科技补跌则全面清掉科技试错仓；电力/电网方向持仓若长缆断板或立新能源低开低走，果断止损。</div>
   </div>
   <div class="lead">
-    <div class="nm">紫苏叶瓶颈标的跟踪</div>
-    <div class="cd">华明装备 / 神马电力 / 广信科技 / 大连电瓷</div>
-    <div class="lg">四大断供环节（分接开关/复合绝缘子/绝缘纸板/瓷绝缘子）已进入核心池。长期逻辑独立于短线情绪，适合以月线视角跟踪国产替代进度与订单兑现。</div>
+    <div class="nm">关键观察信号：连板梯队能否重建</div>
+    <div class="cd">今日实际最高4板 · 晋级率 26.67%</div>
+    <div class="lg">若明日出现5板以上新龙头且涨停维持60家以上 = 情绪弱修复；若长缆科技断板跌停 + 立新能源继续大跌 = 连板生态彻底溃散+全市场进入冰点期。同步观察成交额能否守住1.8万亿（缩至下方=流动性风险放大）。</div>
   </div>
 </div>
 
-<!-- ========== 8. 历史对标 ========== -->
-<h2 class="sec">八、历史同阶段参照<small>V1.4必答题</small></h2>
-<div class="chart-box">
-  <p style="font-size:13px;margin-bottom:10px;"><b>H-2026-008 算电协同/绿电：</b>同阶段（高潮期）龙头华电辽能8连板后次日（3/26）断板冲高回落+6.47%，板块未集体退潮（晋控电力等仍涨停），属龙头分歧而非题材死亡。当前立新能源6板+公司澄清算电协同证伪+特高压招标实质性订单支撑，结构与H-2026-008类似但订单验证性更强。</p>
-  <p style="font-size:13px;"><b>H-2025-001 雅下水电：</b>同属大型基建能源类题材，当时龙头在7板后断板，但中军（中国电建/中国能建）持续活跃2周以上。参照结论：电网设备题材若具备持续招标订单验证，中军生命力可能强于纯情绪连板。</p>
+<!-- ========== 7. 次日验证对象清单（公开版） ========== -->
+<h2 class="sec">七、次日验证对象清单<small>取自 06-核心报告 第六节；公开版仅保留【纯风向标】档完整信息</small></h2>
+<div class="tbl-scroll">
+<table>
+  <thead><tr><th>代码</th><th>名称</th><th>入选理由（一句话）</th><th>档位标注</th></tr></thead>
+  <tbody>
+    <tr><td>002270</td><td>华明装备</td><td>紫苏叶核心池，分接开关国内唯一特高压量产，7/24回调提供低吸观察窗口</td><td>【可交易】<span class="wind-only">（具体触发/失效条件详见内部版）</span></td></tr>
+    <tr><td>603530</td><td>神马电力</td><td>紫苏叶核心池，复合绝缘子国际首创，海外收入47%，7/24回调</td><td>【可交易】<span class="wind-only">（具体触发/失效条件详见内部版）</span></td></tr>
+    <tr><td>002606</td><td>大连电瓷</td><td>紫苏叶核心池，H1预增200%+，瓷绝缘子唯一批量供货，7/24相对抗跌</td><td>【可交易】<span class="wind-only">（具体触发/失效条件详见内部版）</span></td></tr>
+    <tr><td>603690</td><td>至纯科技</td><td>半导体设备清洗龙头，7/24逆势涨停，长鑫IPO直接受益</td><td>【条件观察】<span class="wind-only">（具体触发/失效条件详见内部版）</span></td></tr>
+    <tr><td>002879</td><td><b>长缆科技</b></td><td>电网设备龙一4连板，5板生死线决定连板生态存亡</td><td><span class="tag">【纯风向标】</span>仅用于判断板块/情绪方向，不计绩效</td></tr>
+  </tbody>
+</table>
+</div>
+<div class="obs-note">
+  <b>档位说明</b>：【纯风向标】档仅用于判断板块/情绪方向，不计绩效；【可交易】与【条件观察】档的具体触发价、失效价、仓位配比及持有时间窗等交易参数已按公开版要求剥离，完整参数详见内部版报告。
 </div>
 
-<!-- ========== 9. 底部 ========== -->
+<!-- ========== 8. 底部 ========== -->
 <div class="foot">
-  <h2 class="sec" style="margin-top:0;">九、本日触发记录<small>取自 06-核心报告 第五节</small></h2>
+  <h2 class="sec" style="margin-top:0;">八、本日触发记录<small>取自 06-核心报告 第五节</small></h2>
   <div class="rec">
-    产业链分析：<span class="ok">已触发 ✓</span> —— 电网设备板块涨停超30家≥6家，全市场第1热点 → 03-产业链分析.md，鉴定3家核心龙头：中国西电 / 国电南瑞 / 许继电气<br>
-    紫苏叶挖掘：<span class="ok">已触发 ✓</span> —— 同板块 → 04-紫苏叶挖掘.md，锁定分接开关/复合绝缘子/绝缘纸板/瓷绝缘子四大瓶颈，华明装备、神马电力、广信科技、大连电瓷入核心池<br>
-    个股题材挖机：<span class="ok">已触发 ✓</span> —— 龙一立新能源（001258，近2日涨幅约21%已验证）→ 05-个股题材挖机.md，结论：最硬题材「绿色电力运营+疆电外送」<br>
-    次日验证：<span class="ok">已完成 ✓</span> —— 7-22报告5只观察标的7-23均值+3.01%；情绪判定记部分相符；仓位建议记有效；已写入 track-record.md<br>
-    历史对标：<span class="ok">已匹配</span> —— H-2026-008（算电协同/绿电）、H-2025-001（雅下水电）
+    产业链分析：<span class="ok">已触发 ✓</span> —— 电网设备板块涨停约6家≥6家，全市场第1热点 → 03-产业链分析.md，鉴定3家核心龙头：中国西电 / 许继电气 / 平高电气<br>
+    紫苏叶挖掘：<span class="ok">已触发 ✓</span> —— 同板块 → 04-紫苏叶挖掘.md，锁定分接开关/复合绝缘子/绝缘纸板/瓷绝缘子/避雷器五大瓶颈，华明装备、神马电力、广信科技、大连电瓷在核心池，金冠电气（观察池，7-24收监管函）、望变电气（观察池），watchlist.md 已更新<br>
+    个股题材挖机：<span class="ok">已触发 ✓</span> —— 龙一长缆科技（002879，4连板）→ 05-个股题材挖机.md，结论：最硬题材「超高压/特高压电缆附件」，次日以观察为主<br>
+    次日验证：<span class="ok">已完成 ✓</span> —— 7-23报告5只观察标的7-24均值-0.29%；情绪判定记相符（高潮期→次日分歧兑现）；仓位建议记有效；历史对标记相符；已写入track-record.md<br>
+    历史对标：H-2026-008（算电协同/绿电）、H-2026-012（光芯片/CPO）、H-2026-015（油气/油运-霍尔木兹冲击）、无近似历史案例（DeepSeek融资映射）
   </div>
-  <div class="disc">⚠️ 免责声明：本报告由 AI 基于公开信息生成，仅供研究参考，不构成投资建议。股市有风险，决策需独立。公开版已剥离具体仓位建议、买卖点及交易指令，完整研判请参见内部版。</div>
-  <div class="src">逆袭者·AI分析大师 ｜ 数据窗口 2026-07-22 ~ 07-23 ｜ 报告生成时间：2026-07-23 盘后 ｜ 单文件 HTML · ECharts 交互图表</div>
+  <div class="disc">⚠️ 免责声明：本报告由 AI 基于公开信息生成，仅供研究参考，不构成投资建议。股市有风险，决策需独立。</div>
+  <div class="src">逆袭者·AI分析大师 ｜ 数据窗口 2026-07-23 ~ 07-24 ｜ 报告生成时间：2026-07-24 盘后 ｜ 单文件 HTML · ECharts 交互图表</div>
 </div>
 
 </div>
@@ -288,22 +297,22 @@ var charts = [];
 /* ① 指数涨跌幅柱状图 */
 var c1 = mk('c1'); charts.push(c1);
 c1.setOption({
-  tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:function(p){var v=p[0].value;return p[0].name+'：<b style="color:'+(v>=0?'#e84a5f':'#2ecc71')+'">'+(v>0?'+':'')+v+'%</b>';}},
+  tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:function(p){return p[0].name+'：<b style="color:#e84a5f">'+p[0].value+'%</b>';}},
   grid:{left:50,right:20,top:30,bottom:30},
-  xAxis:Object.assign({type:'category',data:['上证指数','深证成指','创业板指','科创50']},goldAxis),
-  yAxis:Object.assign({type:'value',name:'%',min:-5,max:2},goldAxis),
-  series:[{type:'bar',data:[0.25,0.44,0.25,-3.78],barWidth:'46%',
-    itemStyle:{borderRadius:function(p){return p.value>=0?[6,6,0,0]:[0,0,6,6];},color:function(p){return p.value>=0?'#e84a5f':'#2ecc71';}},
-    label:{show:true,position:function(p){return p.value>=0?'top':'bottom';},color:'#f0c75e',fontWeight:700,formatter:function(p){return (p.value>0?'+':'')+p.value+'%';}}}]
+  xAxis:Object.assign({type:'category',data:['上证指数','深证成指','创业板指','北证50']},goldAxis),
+  yAxis:Object.assign({type:'value',name:'%',min:-5,max:1},goldAxis),
+  series:[{type:'bar',data:[-1.61,-2.47,-2.65,-4.03],barWidth:'46%',
+    itemStyle:{borderRadius:[0,0,6,6],color:function(p){var c=['#8a4b55','#b04a55','#d44a5a','#e84a5f'];return c[p.dataIndex];}},
+    label:{show:true,position:'bottom',color:'#f0c75e',fontWeight:700,formatter:'{c}%'}}]
 });
 
-/* ② 情绪仪表盘：封板率 gauge + 涨停/跌停/炸板 bar */
+/* ② 情绪仪表盘：封板率 gauge + 涨停/跌停 bar */
 var c2 = mk('c2'); charts.push(c2);
 c2.setOption({
   series:[
     {type:'gauge',center:['28%','55%'],radius:'62%',min:0,max:100,
       title:{show:true,offsetCenter:[0,'80%'],color:'#9aa8c7',fontSize:12},
-      data:[{value:82,name:'封板率(%)'}],
+      data:[{value:74,name:'封板率(%)'}],
       progress:{show:true,width:10,itemStyle:{color:{type:'linear',x:0,y:0,x2:1,y2:0,colorStops:[{offset:0,color:'#d4af37'},{offset:1,color:'#e84a5f'}]}}},
       axisLine:{lineStyle:{width:10,color:[[1,'rgba(255,255,255,.08)']]}},
       axisTick:{show:false},splitLine:{show:false},axisLabel:{show:false},
@@ -311,15 +320,15 @@ c2.setOption({
       anchor:{show:true,size:8,itemStyle:{color:'#f0c75e'}},
       detail:{valueAnimation:true,formatter:'{value}%',color:'#f0c75e',fontSize:24,offsetCenter:[0,'40%']}},
     {type:'bar',xAxisIndex:0,yAxisIndex:0,barWidth:14,
-      data:[116,2,38],
+      data:[42,25,17],
       itemStyle:{borderRadius:4,color:function(p){var c=['#e84a5f','#2ecc71','#f39c12'];return c[p.dataIndex];}},
       label:{show:true,position:'right',color:'#e8ecf5',fontWeight:700}}
   ],
   grid:{left:'52%',right:'12%',top:'18%',bottom:'14%'},
   xAxis:{type:'value',axisLabel:{color:'#9aa8c7'},splitLine:{lineStyle:{color:'rgba(255,255,255,.06)'}}},
-  yAxis:{type:'category',inverse:true,data:['涨停 116','跌停 2','炸板 38'],
+  yAxis:{type:'category',inverse:true,data:['涨停 42','跌停 ~25','3板以上 4'],
     axisLabel:{color:'#9aa8c7',fontSize:11},axisLine:{show:false},axisTick:{show:false}},
-  graphic:[{type:'text',left:'6%',top:'6%',style:{text:'炸板率 17.73%\n最高连板：立新能源 6板\n情绪阶段：高潮期（结构性弱高潮）',fill:'#d4af37',fontSize:11,lineHeight:16}}]
+  graphic:[{type:'text',left:'6%',top:'6%',style:{text:'晋级率 26.67%（连板梯队严重受挫）\n最高连板：长缆科技/爱丽家居 4板\n情绪阶段：退潮期 · 建议仓位 0-10%',fill:'#d4af37',fontSize:11,lineHeight:16}}]
 });
 
 /* ③ 行业涨停家数 */
@@ -328,13 +337,12 @@ c3.setOption({
   tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
   grid:{left:70,right:40,top:20,bottom:30},
   xAxis:Object.assign({type:'value',name:'只'},goldAxis),
-  yAxis:Object.assign({type:'category',inverse:true,data:['电网设备','电力/绿电','有色金属','油气化工','机械设备']},goldAxis),
+  yAxis:Object.assign({type:'category',inverse:true,data:['电网设备','半导体设备','军工','其他']},goldAxis),
   series:[{type:'bar',data:[
-      {value:30,itemStyle:{color:{type:'linear',x:0,y:0,x2:1,y2:0,colorStops:[{offset:0,color:'#d4af37'},{offset:1,color:'#e84a5f'}]}}},
-      {value:18,itemStyle:{color:'#b04a55'}},
-      {value:12,itemStyle:{color:'#3d5a99'}},
-      {value:8,itemStyle:{color:'#3d5a99'}},
-      {value:7,itemStyle:{color:'#3d5a99'}}
+      {value:6,itemStyle:{color:{type:'linear',x:0,y:0,x2:1,y2:0,colorStops:[{offset:0,color:'#d4af37'},{offset:1,color:'#e84a5f'}]}}},
+      {value:5,itemStyle:{color:'#3d5a99'}},
+      {value:4,itemStyle:{color:'#3d5a99'}},
+      {value:27,itemStyle:{color:'#2a3d6b'}}
     ],barWidth:'50%',itemStyle:{borderRadius:[0,6,6,0]},
     label:{show:true,position:'right',color:'#f0c75e',fontWeight:700,formatter:'{c} 只'}}]
 });
@@ -345,14 +353,14 @@ c4.setOption({
   legend:{bottom:0,textStyle:{color:'#9aa8c7',fontSize:11},itemWidth:14},
   tooltip:{},
   radar:{
-    indicator:[{name:'主线：电网规划+特高压招标',max:5},{name:'支线①：美股科技崩盘映射',max:5},{name:'支线②：中东局势/周期避险',max:5},{name:'对冲：海外流动性/地缘',max:5},{name:'一级市场映射：长鑫7/27挂牌',max:5}],
+    indicator:[{name:'主线：十五五电网+特高压招标',max:5},{name:'支线①：半导体国产替代',max:5},{name:'支线②：中东地缘+军工避险',max:5},{name:'对冲：Mag7蒸发+科技股回调',max:5},{name:'一级市场映射：DeepSeek融资',max:5}],
     radius:'58%',center:['50%','46%'],
     axisName:{color:'#9aa8c7',fontSize:10},
     splitArea:{areaStyle:{color:['rgba(212,175,55,.03)','rgba(212,175,55,.07)']}},
     splitLine:{lineStyle:{color:'rgba(255,255,255,.1)'}},axisLine:{lineStyle:{color:'rgba(255,255,255,.15)'}}
   },
   series:[{type:'radar',
-    data:[{value:[5,2,3,3,4],name:'线索星级（满分5★）',
+    data:[{value:[5,4,4,3,3],name:'线索星级（满分5★）',
       areaStyle:{color:'rgba(212,175,55,.35)'},lineStyle:{color:'#d4af37',width:2},
       itemStyle:{color:'#f0c75e'},
       label:{show:true,color:'#f0c75e',fontSize:10,formatter:function(p){return '★'+p.value;}}}]}]
@@ -368,28 +376,43 @@ c5.setOption({
   legend:{bottom:0,textStyle:{color:'#9aa8c7',fontSize:11}},
   grid:{left:170,right:60,top:20,bottom:50},
   xAxis:Object.assign({type:'value',max:50,name:'分'},goldAxis),
-  yAxis:Object.assign({type:'category',inverse:true,data:['电网设备/特高压','电力/绿电运营','有色金属/周期','算力租赁/Token经济','科技/半导体反抽']},Object.assign({},goldAxis,{axisLabel:{color:'#9aa8c7',fontSize:11}})),
+  yAxis:Object.assign({type:'category',inverse:true,data:['半导体设备国产替代','电网设备/特高压','军工避险','中报预增']},Object.assign({},goldAxis,{axisLabel:{color:'#9aa8c7',fontSize:11}})),
   series:[
-    {name:'确定性',type:'bar',stack:'a',data:[9,8,7,6,4],itemStyle:{color:'#d4af37'},barWidth:20},
-    {name:'时效性',type:'bar',stack:'a',data:[9,8,6,5,3],itemStyle:{color:'#e84a5f'}},
-    {name:'稀缺性',type:'bar',stack:'a',data:[8,6,6,5,4],itemStyle:{color:'#3d5a99'}},
-    {name:'资金认同',type:'bar',stack:'a',data:[9,9,7,7,3],itemStyle:{color:'#2ecc71'}},
-    {name:'筹码结构',type:'bar',stack:'a',data:[7,6,6,5,4],itemStyle:{color:'#8e6fb8'},
+    {name:'确定性',type:'bar',stack:'a',data:[8,9,7,7],itemStyle:{color:'#d4af37'},barWidth:20},
+    {name:'时效性',type:'bar',stack:'a',data:[8,5,6,5],itemStyle:{color:'#e84a5f'}},
+    {name:'稀缺性',type:'bar',stack:'a',data:[7,6,5,4],itemStyle:{color:'#3d5a99'}},
+    {name:'资金认同',type:'bar',stack:'a',data:[8,7,6,5],itemStyle:{color:'#2ecc71'}},
+    {name:'筹码结构',type:'bar',stack:'a',data:[7,5,6,5],itemStyle:{color:'#8e6fb8'},
       label:{show:true,position:'right',color:'#f0c75e',fontWeight:700,formatter:function(p){
-        var totals=[42,37,32,28,18];return '总分 '+totals[p.dataIndex];}}}
+        var totals=[38,32,30,26];return '总分 '+totals[p.dataIndex];}}}
   ]
 });
 
-/* ⑥ 主力净流入板块 */
+/* ⑥ 紫苏叶标的市值分布 */
 var c6 = mk('c6'); charts.push(c6);
 c6.setOption({
-  tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
-  grid:{left:90,right:60,top:20,bottom:30},
-  xAxis:Object.assign({type:'value',name:'亿元'},goldAxis),
-  yAxis:Object.assign({type:'category',inverse:true,data:['电力设备','有色金属','银行','建筑装饰','公用事业']},goldAxis),
-  series:[{type:'bar',data:[45,38,22,18,15],barWidth:'48%',
-    itemStyle:{borderRadius:[0,6,6,0],color:function(p){return p.dataIndex===0?{type:'linear',x:0,y:0,x2:1,y2:0,colorStops:[{offset:0,color:'#d4af37'},{offset:1,color:'#e84a5f'}]}:'#3d5a99';}},
-    label:{show:true,position:'right',color:'#f0c75e',fontWeight:700,formatter:'+{c} 亿'}}]
+  tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:function(p){
+    var d=p[0];return d.name+'<br/>市值：约 <b style="color:#f0c75e">'+d.value+' 亿</b><br/>'+({'华明装备':'有载分接开关 · 核心池','神马电力':'复合外绝缘 · 核心池','广信科技':'特高压绝缘纸板 · 核心池','大连电瓷':'特高压瓷绝缘子 · 核心池','金冠电气':'特高压避雷器 · 观察池（监管函）','望变电气':'取向硅钢 · 观察池（业绩预降）'}[d.name]||'');}},
+  grid:{left:60,right:30,top:30,bottom:80},
+  xAxis:Object.assign({type:'category',data:['神马电力','华明装备','大连电瓷','望变电气','广信科技','金冠电气'],axisLabel:{rotate:30,color:'#9aa8c7',fontSize:11}},goldAxis),
+  yAxis:Object.assign({type:'value',name:'亿元'},goldAxis),
+  series:[{type:'bar',barWidth:'52%',
+    data:[
+      {value:185,itemStyle:{color:'#d4af37'}},
+      {value:152,itemStyle:{color:'#d4af37'}},
+      {value:53,itemStyle:{color:'#d4af37'}},
+      {value:42,itemStyle:{color:'#5a3d99'}},
+      {value:48,itemStyle:{color:'#d4af37'}},
+      {value:19.5,itemStyle:{color:'#5a3d99'}}
+    ],
+    itemStyle:{borderRadius:[6,6,0,0]},
+    label:{show:true,position:'top',color:'#f0c75e',fontSize:11,formatter:function(p){return p.value;}},
+    markLine:{symbol:'none',lineStyle:{color:'#e84a5f',type:'dashed'},label:{color:'#e84a5f',formatter:'适配区间上沿 500亿'},
+      data:[{yAxis:500}]},
+    markArea:{itemStyle:{color:'rgba(212,175,55,.06)'},label:{color:'#9aa8c7',fontSize:10,position:'insideBottom'},
+      data:[[{name:'核心池适配区间 50-500亿',yAxis:50},{yAxis:500}]]}
+  }],
+  graphic:[{type:'text',right:20,top:10,style:{text:'金色=核心池（4只）  紫色=观察池（监管/业绩风险）\n金冠电气7-24收监管函，望变电气H1预降61%-67%',fill:'#9aa8c7',fontSize:11,lineHeight:16}}]
 });
 
 window.addEventListener('resize',function(){charts.forEach(function(c){c.resize();});});
